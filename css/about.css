@@ -1,0 +1,56 @@
+.heading{
+    font-weight:bold;
+    font-size:4vw;
+}
+.maps{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0 10px;
+    width:calc(50% - 20px);
+}
+.mapImage{
+    width:70%;
+}
+.mapsTable{
+    border: 5px black solid;
+    border-collapse: collapse;
+}
+.mapsTable > tr, td{
+    border: 1px black solid;
+}
+.mapsTable > tr > td{
+    display:flex;
+    flex-direction: column;
+}
+.faq{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:calc(50% - 20px);
+}
+.faq > span{
+    font-size: 3vw;
+}
+.mainContainer{
+    display:flex;
+    width:100%;
+    padding-top:30px;
+}
+.faqQandA{
+    padding: 20px 0;
+    display:flex;
+    flex-direction: column;
+}
+.question:hover{
+    cursor:pointer;
+}
+@media only screen and (max-width:750px){
+    .mainContainer{
+        flex-direction:column;
+        align-items:center;
+    }
+    .maps, faq{
+        width:80%;
+    }
+}

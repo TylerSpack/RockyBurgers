@@ -1,0 +1,68 @@
+.menubar{
+    background-color: #f10c21;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:75px;
+}
+.menubar span{
+    padding: 0 20px;
+    color:white;
+}
+.menubar span:hover{
+    cursor:pointer;
+}
+
+.menu{
+    width:80%;
+    display:none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#foodDrinkMenu{
+    display:flex;
+}
+.menuSection{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    padding: 10px 20px;
+}
+.menuSection > h1{
+    text-align: center;
+}
+#dessertsMenu > .menuSection{
+    width:40%;
+}
+.menuTitle{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.menuDescription{
+    font-size: 1vw;
+}
+.menuItem{
+    display:flex;
+    flex-direction:column;
+}
+
+.menuSection > img{
+    border-radius:20px;
+    width:100%;
+    margin-bottom: 50px;
+    align-self: center;
+}
+/*#dessertsMenu > .menuSection > img{*/
+/*    width:auto;*/
+/*    height:300px;*/
+/*}*/
+/*@media only screen and (max-width:700px)*/
+/*{*/
+/*    */
+/*}*/
+/** {*/
+/*    border: 1px solid white;*/
+/*}*/
+
+
