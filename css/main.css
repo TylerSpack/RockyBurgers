@@ -14,7 +14,8 @@ body{
     position:fixed;
     top: 0;
     height: 100px;
-    width:100%;
+    width:calc(100% - 30px);
+    padding: 0 15px;
 }
 .header i{
     font-size:3em;
