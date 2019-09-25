@@ -43,15 +43,15 @@ body{
     position: fixed;
     left: -200px;
     width:200px;
-    background-color:gray;
+    background-color: #555555;
     transition: all 0.5s;
     height:100%;
 }
 .verticalHeaderLinks{
     display:flex;
     flex-direction: column;
-
 }
+
 .headerLinks a, .verticalHeaderLinks a{
     text-decoration: none;
     color:black;
@@ -61,6 +61,9 @@ body{
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 3vw;
     text-align: center;
+}
+.verticalHeaderLinks a {
+    color: white;
 }
 .headerLinks a:hover{
     opacity: 0.4;
