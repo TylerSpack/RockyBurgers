@@ -194,6 +194,9 @@ body{
         display:inline;
         padding: 0 20px 0 0;
     }
+    .headerLogo img{
+        width:100%;
+    }
 }
 @media (min-width: 701px)
 {
