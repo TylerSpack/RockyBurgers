@@ -5,55 +5,65 @@
     <title>Rocky&apos;s Burger&apos;s</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-    <div class="header">
-        <img src="../img/logo.png" alt="logo" class="headerLogo">
-        <div class="headerLinks">
-            <a href="../index.html">HOME</a>
-            <a href="menu.html">MENU</a>
-            <a href="about.html">ABOUT US</a>
-            <a href="apply.html">APPLY</a>
-        </div>
+<div class="header">
+    <div class="headerLogo">
+        <img src="../img/logo.png" alt="logo">
     </div>
-    <div class="menubar">
-        <span id="foodDrinks">Food</span>
-        <span id="desserts">Drinks and Desserts</span>
+    <i class="fas fa-bars" id="verticalMenuButton"></i>
+    <div class="headerLinks">
+        <a href="../index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="apply.html">APPLY</a>
     </div>
+</div>
+<div id="verticalHeader">
+    <div class="verticalHeaderLinks">
+        <a href="../index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="apply.html">APPLY</a>
+    </div>
+</div>
+<div class="menubar">
+    <span id="foodDrinks">Food</span>
+    <span id="desserts">Drinks and Desserts</span>
+</div>
 
 
+<div class="mainContent">
+    <div id="foodDrinkMenu" class="menu">
 
-
-    <div class="mainContent">
-        <div id="foodDrinkMenu" class="menu">
-
-            <div class="menuSection">
-                <h1>Burgers</h1>
-                <img src="../img/homeSquare.jpg" alt="burger">
-                <h2>Our burgers are cooked medium and are very juicy!</h2>
-                <div class="menuItem">
-                    <span class="menuTitle">Rockey Burger $8.25</span>
-                    <span class="menuDescription">
+        <div class="menuSection">
+            <h1>Burgers</h1>
+            <img src="../img/homeSquare.jpg" alt="burger">
+            <h2>Our burgers are cooked medium and are very juicy!</h2>
+            <div class="menuItem">
+                <span class="menuTitle">Rockey Burger $8.25</span>
+                <span class="menuDescription">
                         Two 4 oz. patties, with Awesome Sauce <br>
                         Add Cheese … $0.75 <br>
                         Add Bacon … $1.25
                     </span>
-                    <span class="menuTitle">Super Burger $5.75</span>
-                    <span class="menuDescription">
+                <span class="menuTitle">Super Burger $5.75</span>
+                <span class="menuDescription">
                         4 oz. patties, with Awesome Sauce <br>
                         Add Cheese … $0.50 <br>
                         Add Bacon … $1.25
                     </span>
-                </div>
             </div>
+        </div>
 
-            <div class="menuSection">
-                <h1>Toppings</h1>
-                <img src="../img/tomato.jpg" alt="toppings">
-                <h2>Free and Extra</h2>
-                <div class="menuItem">
-                    <span class="menuTitle">Free</span>
-                    <span class="menuDescription">
+        <div class="menuSection">
+            <h1>Toppings</h1>
+            <img src="../img/tomato.jpg" alt="toppings">
+            <h2>Free and Extra</h2>
+            <div class="menuItem">
+                <span class="menuTitle">Free</span>
+                <span class="menuDescription">
                         Lettuce <br>
                         Tomato <br>
                         Red Onions <br>
@@ -61,87 +71,85 @@
                         Grilled Onions <br>
                         Housemade Pickles
                     </span>
-                </div>
-                <div class="menuItem">
-                    <span class="menuTitle">Extra</span>
-                    <span class="menuDescription">
+            </div>
+            <div class="menuItem">
+                <span class="menuTitle">Extra</span>
+                <span class="menuDescription">
                         Avocado $1.25
                         Bacon $1.25 <br>
                         Roasted Portabello $1.25 <br>
                         Organic Egg $1.50 <br>
                     </span>
-                </div>
             </div>
+        </div>
 
-            <div class="menuSection">
-                <h1>Chicken</h1>
-                <img src="../img/chickenSandwich.jpg" alt="chicken">
-                <h2>Natural free range chicken breast with chipotle aioli</h2>
-                <div class="menuItem">
-                    <span class="menuTitle">Chicken Sandwich $8.00</span>
-                    <span class="menuDescription">
+        <div class="menuSection">
+            <h1>Chicken</h1>
+            <img src="../img/chickenSandwich.jpg" alt="chicken">
+            <h2>Natural free range chicken breast with chipotle aioli</h2>
+            <div class="menuItem">
+                <span class="menuTitle">Chicken Sandwich $8.00</span>
+                <span class="menuDescription">
                         Add Jack Cheese … $0.50 <br>
                         Add Bacon … $1.25
                     </span>
-                </div>
             </div>
-
         </div>
 
-        <div id="dessertsMenu" class="menu">
+    </div>
+
+    <div id="dessertsMenu" class="menu">
 
 
-
-            <div class="menuSection">
-                <h1>Drinks</h1>
-                <img src="../img/drink.jpg" alt="drink">
-                <div class="menuItem">
+        <div class="menuSection">
+            <h1>Drinks</h1>
+            <img src="../img/drink.jpg" alt="drink">
+            <div class="menuItem">
                     <span class="menuDescription">
                         Fountain … $2.50 <br>
                         Organic Iced Tea … $2.75 <br>
                         Fresh Lemonade … $3.25 <br>
                         Water Bottle … $2.00
                     </span>
-                </div>
             </div>
+        </div>
 
 
-            <div class="menuSection">
-                <h1>Cones</h1>
-                <img src="../img/iceCream.jpg" alt="cone">
-                <h2>Made with Rockey Creamery organic soft serve</h2>
-                <div class="menuItem">
-                    <span class="menuTitle">Regular … $4.75</span>
-                    <span class="menuDescription">
+        <div class="menuSection">
+            <h1>Cones</h1>
+            <img src="../img/iceCream.jpg" alt="cone">
+            <h2>Made with Rockey Creamery organic soft serve</h2>
+            <div class="menuItem">
+                <span class="menuTitle">Regular … $4.75</span>
+                <span class="menuDescription">
                         Vanilla, Chocolate, or Swirled
                     </span>
-                </div>
-                <div class="menuItem">
-                    <span class="menuTitle">Super Shake … $5.75</span>
-                    <span class="menuDescription">
+            </div>
+            <div class="menuItem">
+                <span class="menuTitle">Super Shake … $5.75</span>
+                <span class="menuDescription">
                         Cookies & Cream, Fresh Strawberries, or Chocolate & Chips
                     </span>
-                </div>
-                <div class="menuItem">
-                    <span class="menuTitle">Kids Size … $3.25</span>
-                    <span class="menuDescription">
+            </div>
+            <div class="menuItem">
+                <span class="menuTitle">Kids Size … $3.25</span>
+                <span class="menuDescription">
                         Vanilla, Chocolate, or Swirled <br>
                         Add Malt … $0.50
                     </span>
-                </div>
             </div>
-
-
-
         </div>
+
 
     </div>
 
+</div>
+<div class="footer">
+    Tyler Spackman 2019
+</div>
 
 
-
-
-
-    <script src="../js/menu.js"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>

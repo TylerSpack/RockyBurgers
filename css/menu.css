@@ -3,7 +3,14 @@
     display:flex;
     justify-content: center;
     align-items:center;
+    position:fixed;
+    top: 0px;
     height:75px;
+    width:100%;
+    margin-top:100px;
+}
+.mainContent{
+    margin-top:175px;
 }
 .menubar span{
     padding: 0 20px;
